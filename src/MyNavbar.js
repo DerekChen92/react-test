@@ -9,12 +9,12 @@ export default class MyNavbar extends Component {
 		return (
 			<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
 				<Container>
-					<Navbar.Brand href="/">Chingyu's ePortfolio</Navbar.Brand>
+					<Navbar.Brand href="home">Chingyu's ePortfolio</Navbar.Brand>
 					<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 					<Navbar.Collapse id="responsive-navbar-nav">
 						<Nav className="me-auto">
-							<Nav.Link href="/about-me/">About Me</Nav.Link>
-							<Nav.Link href="/experience/">Experience</Nav.Link>
+							<Nav.Link href="about-me">About Me</Nav.Link>
+							<Nav.Link href="experience">Experience</Nav.Link>
 							{/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
 								<NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
 								<NavDropdown.Item href="#action/3.2">

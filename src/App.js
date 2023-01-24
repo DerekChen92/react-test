@@ -15,11 +15,10 @@ function App() {
         <MyNavbar></MyNavbar>
 
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
+          <Route path="home" element={<Home />} />
           <Route index element={<Home />} />
-          <Route path="/about-me/" element={<AboutMe />} />
-          <Route path="/experience/" element={<Experience />} />
+          <Route path="about-me" element={<AboutMe />} />
+          <Route path="experience" element={<Experience />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
         <h1>yoyo</h1>
