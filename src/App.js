@@ -7,6 +7,7 @@ import AboutMe from './AboutMe.js';
 import Experience from './Experience.js';
 import NoPage from './NoPage.js';
 import MyNavbar from './MyNavbar';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="*" element={<NoPage />} />
         </Routes>
         <h1>yoyo</h1>
+        <Footer />
       </BrowserRouter>
     </>
   );
